@@ -1,4 +1,4 @@
-const api_url =  "https://krutikaflask1.herokuapp.com/"
+const api_url =  "https://krutikaflask1.herokuapp.com/users"
 
 function loadData(records = []) {
     var table_data = "";
@@ -68,7 +68,7 @@ function postData() {
 	
 	
     data = {name: name, age: age, city: city};
-    fetch(`http://127.0.0.1:5000/employee`, {
+    fetch(`https://krutikaflask1.herokuapp.com/users`, {
         method: "POST",
         headers: {
             'Accept': 'application/json',
