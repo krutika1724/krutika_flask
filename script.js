@@ -1,4 +1,4 @@
-const api_url =  "https://krutikaflask1.herokuapp.com/users"
+const api_url =  "https://krutikaflask1.herokuapp.com/"
 
 function loadData(records = []) {
     var table_data = "";
